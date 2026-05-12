@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Argo CD ConfigMap Diff Viewer",
+  "version": "1.0.0",
+  "description": "Visualizes ConfigMap data diffs in Argo CD when ConfigMaps are recreated by ConfigMapGenerator",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Show ConfigMap Diff"
+  }
+}
